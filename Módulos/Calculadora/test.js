@@ -1,4 +1,4 @@
-
+/*
 function soma (a, b) {
     return a+b
 }
@@ -15,4 +15,4 @@ function div () {
     return a/b
 }
 
-console.log(sub(4,2))
+console.log(sub(4,2))*/
