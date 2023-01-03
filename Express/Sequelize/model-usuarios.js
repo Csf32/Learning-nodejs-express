@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const sequelize = new Sequelize('testeconexao','****', '****', {
+const sequelize = new Sequelize('testeconexao','root','Unitedred33.', {
     host: "localhost",
     dialect: "mysql"
 })
@@ -22,7 +22,6 @@ usuario.create ({
     email: "veras@test.com"
 })
 
-//usuario.sync({ force:true })
 
 try {
     

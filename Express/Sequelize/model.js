@@ -1,14 +1,15 @@
 
 const Sequelize = require('sequelize')
-const sequelize = new Sequelize('testeconexao', '****', '****', {
+const sequelize = new Sequelize('testeconexao', 'root', 'Unitedred33.', {
     hots: "localhost",
     dialect: "mysql"
 })
 
+
 const postagem = sequelize.define('postagens',{ 
 
     titulo: {
-      
+        
         type: Sequelize.STRING 
     },
     conteudo: {

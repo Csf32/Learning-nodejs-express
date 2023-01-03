@@ -7,6 +7,7 @@ const subFunc = require("./sub")
 
 console.log(subFunc(4,2))
 
+
 const multFunc = require("./mult")
 
 console.log(multFunc(3,2))
